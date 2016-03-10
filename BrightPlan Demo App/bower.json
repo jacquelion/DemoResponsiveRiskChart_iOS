@@ -1,0 +1,23 @@
+{
+  "name": "BrightPlanDemoApp_01",
+  "authors": [
+    "Jacqueline Sloves <jacqueline.sloves@gmail.com>"
+  ],
+  "description": "Demo App for Brightplan",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/jacquelion/DemoResponsiveRiskChart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Chart.js": "chartjs#^1.0.2",
+    "jquery": "^2.2.1",
+    "rangeslider.js": "^2.1.1"
+  }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ESh-pw-XxJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Display Web View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DisplayWebViewController" customModule="BrightPlan_Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cuB-f6-AYb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="RIk-QY-NtT">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RIk-QY-NtT" firstAttribute="centerX" secondItem="cuB-f6-AYb" secondAttribute="centerX" id="2wY-Ff-MeI"/>
+                            <constraint firstItem="cuB-f6-AYb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Qs-OP-F2B"/>
+                            <constraint firstAttribute="trailing" secondItem="cuB-f6-AYb" secondAttribute="trailing" id="5qc-ax-DkA"/>
+                            <constraint firstItem="cuB-f6-AYb" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="tq6-HL-3Zj"/>
+                            <constraint firstItem="cuB-f6-AYb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wgl-DY-FRx"/>
+                            <constraint firstItem="RIk-QY-NtT" firstAttribute="centerY" secondItem="cuB-f6-AYb" secondAttribute="centerY" id="zae-tk-4Li"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RZT-U2-eIr">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Rtu-rS-Yt7">
+                            <connections>
+                                <action selector="refreshButtonTapped:" destination="BYZ-38-t0r" id="Ryu-7E-58Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myActivityIndicator" destination="RIk-QY-NtT" id="CwS-x0-0rU"/>
+                        <outlet property="myWebView" destination="cuB-f6-AYb" id="hnZ-xy-QxO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044" y="339"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qpO-ps-Ys8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ESh-pw-XxJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UCP-az-r16">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FAi-9P-omA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yWv-5D-jF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="339"/>
+        </scene>
+    </scenes>
+</document>

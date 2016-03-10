@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D6E1FDB1C91FF70009A29D8 /* bower_components in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD61C91FF70009A29D8 /* bower_components */; };
+		6D6E1FDC1C91FF70009A29D8 /* bower.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD71C91FF70009A29D8 /* bower.json */; };
+		6D6E1FDD1C91FF70009A29D8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD81C91FF70009A29D8 /* index.html */; };
+		6D6E1FDE1C91FF70009A29D8 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD91C91FF70009A29D8 /* js */; };
+		6D6E1FDF1C91FF70009A29D8 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FDA1C91FF70009A29D8 /* style.css */; };
+		6DC7B9151C91029D0049F108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7B9141C91029D0049F108 /* AppDelegate.swift */; };
+		6DC7B9171C91029D0049F108 /* DisplayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7B9161C91029D0049F108 /* DisplayWebViewController.swift */; };
+		6DC7B91A1C91029D0049F108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7B9181C91029D0049F108 /* Main.storyboard */; };
+		6DC7B91C1C91029D0049F108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7B91B1C91029D0049F108 /* Assets.xcassets */; };
+		6DC7B91F1C91029D0049F108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7B91D1C91029D0049F108 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D6E1FD61C91FF70009A29D8 /* bower_components */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bower_components; sourceTree = "<group>"; };
+		6D6E1FD71C91FF70009A29D8 /* bower.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bower.json; sourceTree = "<group>"; };
+		6D6E1FD81C91FF70009A29D8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		6D6E1FD91C91FF70009A29D8 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		6D6E1FDA1C91FF70009A29D8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		6DC7B9111C91029D0049F108 /* BrightPlan Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrightPlan Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC7B9141C91029D0049F108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DC7B9161C91029D0049F108 /* DisplayWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWebViewController.swift; sourceTree = "<group>"; };
+		6DC7B9191C91029D0049F108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DC7B91B1C91029D0049F108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC7B91E1C91029D0049F108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC7B9201C91029D0049F108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC7B90E1C91029D0049F108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC7B9081C91029D0049F108 = {
+			isa = PBXGroup;
+			children = (
+				6DC7B9131C91029D0049F108 /* BrightPlan Demo App */,
+				6DC7B9121C91029D0049F108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC7B9121C91029D0049F108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC7B9111C91029D0049F108 /* BrightPlan Demo App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC7B9131C91029D0049F108 /* BrightPlan Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E1FD61C91FF70009A29D8 /* bower_components */,
+				6D6E1FD71C91FF70009A29D8 /* bower.json */,
+				6D6E1FD81C91FF70009A29D8 /* index.html */,
+				6D6E1FD91C91FF70009A29D8 /* js */,
+				6D6E1FDA1C91FF70009A29D8 /* style.css */,
+				6DC7B9141C91029D0049F108 /* AppDelegate.swift */,
+				6DC7B9161C91029D0049F108 /* DisplayWebViewController.swift */,
+				6DC7B9181C91029D0049F108 /* Main.storyboard */,
+				6DC7B91B1C91029D0049F108 /* Assets.xcassets */,
+				6DC7B91D1C91029D0049F108 /* LaunchScreen.storyboard */,
+				6DC7B9201C91029D0049F108 /* Info.plist */,
+			);
+			path = "BrightPlan Demo App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC7B9101C91029D0049F108 /* BrightPlan Demo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC7B9231C91029D0049F108 /* Build configuration list for PBXNativeTarget "BrightPlan Demo App" */;
+			buildPhases = (
+				6DC7B90D1C91029D0049F108 /* Sources */,
+				6DC7B90E1C91029D0049F108 /* Frameworks */,
+				6DC7B90F1C91029D0049F108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BrightPlan Demo App";
+			productName = "BrightPlan Demo App";
+			productReference = 6DC7B9111C91029D0049F108 /* BrightPlan Demo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC7B9091C91029D0049F108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jacqueline Sloves";
+				TargetAttributes = {
+					6DC7B9101C91029D0049F108 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5J8WKU4YKF;
+					};
+				};
+			};
+			buildConfigurationList = 6DC7B90C1C91029D0049F108 /* Build configuration list for PBXProject "BrightPlan Demo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC7B9081C91029D0049F108;
+			productRefGroup = 6DC7B9121C91029D0049F108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC7B9101C91029D0049F108 /* BrightPlan Demo App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC7B90F1C91029D0049F108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6E1FDB1C91FF70009A29D8 /* bower_components in Resources */,
+				6D6E1FDF1C91FF70009A29D8 /* style.css in Resources */,
+				6DC7B91F1C91029D0049F108 /* LaunchScreen.storyboard in Resources */,
+				6DC7B91C1C91029D0049F108 /* Assets.xcassets in Resources */,
+				6D6E1FDE1C91FF70009A29D8 /* js in Resources */,
+				6D6E1FDD1C91FF70009A29D8 /* index.html in Resources */,
+				6DC7B91A1C91029D0049F108 /* Main.storyboard in Resources */,
+				6D6E1FDC1C91FF70009A29D8 /* bower.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC7B90D1C91029D0049F108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC7B9171C91029D0049F108 /* DisplayWebViewController.swift in Sources */,
+				6DC7B9151C91029D0049F108 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DC7B9181C91029D0049F108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC7B9191C91029D0049F108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DC7B91D1C91029D0049F108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC7B91E1C91029D0049F108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC7B9211C91029D0049F108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DC7B9221C91029D0049F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC7B9241C91029D0049F108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BrightPlan Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsloves.BrightPlan-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6DC7B9251C91029D0049F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BrightPlan Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsloves.BrightPlan-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC7B90C1C91029D0049F108 /* Build configuration list for PBXProject "BrightPlan Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC7B9211C91029D0049F108 /* Debug */,
+				6DC7B9221C91029D0049F108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC7B9231C91029D0049F108 /* Build configuration list for PBXNativeTarget "BrightPlan Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC7B9241C91029D0049F108 /* Debug */,
+				6DC7B9251C91029D0049F108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC7B9091C91029D0049F108 /* Project object */;
+}

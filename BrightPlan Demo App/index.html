@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+  <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="bower_components/rangeslider.js/dist/rangeslider.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button> <a class="navbar-brand" href="#">BrightPlan</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Investment Strategy</a>
+                  </li>
+                  <li>
+                    <a href="#">Retirement</a>
+                  </li>
+                  <li>
+                    <a href="#">Research</a>
+                  </li>
+                  <li class="divider">
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+        <div class="page-header">
+          <h1>
+					<span>Plan and invest for a brighter future.</span>
+				</h1>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-6">
+        <canvas id="doughnutChart"></canvas>
+        <div class="doughnut-inner">
+          <h5 id="textInnerDoughnut"></h5>
+        </div>
+        <input type="range" min="0" max="99" value="5" step="1" />
+        <h4> Risk </h4>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title" id="panelTitle">
+						Portfolio Distributions:
+					</h2>
+          </div>
+          <div class="panel-body chart-legend" id="legend">
+            <!-- Panel content -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+
+        <h4> Risk </h4>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div> -->
+    <footer class="row footer">
+      <div class="col-md-12 container" >
+        <p class="row"> © 2016 SLOVES, ALL RIGHTS RESERVED. </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/rangeslider.js/dist/rangeslider.min.js"></script>
+  <script type="text/javascript" src="bower_components/Chart.js/Chart.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/_script.js"></script>
+</body>
+
+</html>
