@@ -10,15 +10,9 @@ input {
   padding: auto;
 }
 
-.doughnut-inner {
-   margin-top: -50%;
-   margin-bottom: 25%;
-   height: 50px;
-}
-.doughnut-inner h5 {
-   margin-top: 20%;
-   font-size: 3em;
-   color: darkgrey;
+.sliderTag {
+  text-align: left;
+  color: darkgrey;
 }
 
 .chart-legend div {

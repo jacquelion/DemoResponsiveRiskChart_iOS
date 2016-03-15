@@ -56,8 +56,7 @@
 	Chart.defaults = {
 		global: {
 			// Boolean - Whether to animate the chart
-			//CHANGED:
-			animation: false,
+			animation: true,
 
 			// Number - Number of animation steps
 			animationSteps: 60,
@@ -179,14 +178,9 @@
 			onAnimationProgress: function(){},
 
 			// Function - Will fire on animation completion.
-			onAnimationComplete: function(){},
+			onAnimationComplete: function(){}
 
-			//CHANGED:
-			labelFontFamily : "Arial",
-			labelFontStyle : "normal",
-			labelFontSize : 24,
-			labelFontColor : "#666"
-			}
+		}
 	};
 
 	//Create a dictionary of chart types, to allow for extension of existing types
@@ -1938,8 +1932,6 @@
 							ctx.textBaseline = "middle";
 							ctx.fillStyle = this.fontColor;
 							ctx.fillText(label, this.xCenter, yHeight);
-							ctx.fillText(data[0].value + "%", width/2 - 20, width/2, 200);
-							console.log("fillText data[0].value = " + data[0].value)
 						}
 					}
 				}, this);
@@ -2068,7 +2060,7 @@
 		barDatasetSpacing : 1,
 
 		//String - A legend template
-		legendTemplate : "<div class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><div><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></div><%}%></div>"
+		legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
 
 	};
 
@@ -2365,7 +2357,7 @@
 		animateScale : false,
 
 		//String - A legend template
-		legendTemplate : "<div class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<segments.length; i++){%><div><span style=\"color:<%=segments[i].fillColor%>\"><%=segments[i].label%> <%=segments[i].value%>%</span></div><%}%></div>"
+		legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<segments.length; i++){%><li><span style=\"background-color:<%=segments[i].fillColor%>\"></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul>"
 
 	};
 
@@ -3087,7 +3079,7 @@
 			helpers.each(this.segments,function(segment){
 				segment.save();
 			});
-
+			
 			this.reflow();
 			this.render();
 		},

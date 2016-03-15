@@ -18,6 +18,6 @@
   "dependencies": {
     "Chart.js": "chartjs#^1.0.2",
     "jquery": "^2.2.1",
-    "rangeslider.js": "^2.1.1"
+    "bootstrap": "^3.3.6"
   }
 }

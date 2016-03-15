@@ -74,22 +74,22 @@ window.onload = function() {
     slider.removeEventListener("mousemove", listener);
   });
 
+  slider.addEventListener("touchstart", function() {
+    listener();
+    slider.addEventListener("touchmove", listener);
+  });
 
- //Implement Rangeslider to respond to touchscreen
-  $('input[type="range"]').rangeslider({
-    // TODO: update on slide
-    onSlide: function() {
-      drawChart(slider.value, false);
-    }
+  slider.addEventListener("touchend", function() {
+    slider.removeEventListener("touchmove", listener);
   });
-   $('input').on('change', function () {
-     drawChart(slider.value, false);
-  });
+
+  $('input').on('change', function () {
+    drawChart(slider.value, false);
+  })
 }
 
 //HELPER functions
 function drawChart(valueFromRange, shouldAnimate) {
-
   currentRiskFactor = valueFromRange;
 
   //set doughnut chart inner text:
@@ -123,17 +123,16 @@ function drawChart(valueFromRange, shouldAnimate) {
 
   var chart = new Chart(ctx).Doughnut(chartData, {
     responsive: true,
-    percentageInnerCutout: 75,
-    animation: shouldAnimate,
-    onAnimationComplete: function() {
-      //SETS TEXT INSIDE CHART
-      document.getElementById('textInnerDoughnut').innerHTML = currentRiskFactor;
-
-    }
+    percentageInnerCutout: 70,
+    animation: shouldAnimate
   });
 
   //SETs LEGEND (PANEL VALUES)
   document.getElementById("legend").innerHTML = chart.generateLegend();
+  document.getElementById("riskValueSlider").innerHTML = currentRiskFactor;
+  document.getElementById("riskValueSlider").style.marginLeft = currentRiskFactor + "%";
 }
+
+
 
 })();

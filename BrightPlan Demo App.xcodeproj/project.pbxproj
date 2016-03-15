@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D6E1FDB1C91FF70009A29D8 /* bower_components in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD61C91FF70009A29D8 /* bower_components */; };
-		6D6E1FDC1C91FF70009A29D8 /* bower.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD71C91FF70009A29D8 /* bower.json */; };
-		6D6E1FDD1C91FF70009A29D8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD81C91FF70009A29D8 /* index.html */; };
-		6D6E1FDE1C91FF70009A29D8 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FD91C91FF70009A29D8 /* js */; };
-		6D6E1FDF1C91FF70009A29D8 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E1FDA1C91FF70009A29D8 /* style.css */; };
+		6DC1E6491C97BD170010D079 /* bower_components in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1E6431C97BD170010D079 /* bower_components */; };
+		6DC1E64A1C97BD170010D079 /* bower.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1E6441C97BD170010D079 /* bower.json */; };
+		6DC1E64B1C97BD170010D079 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1E6451C97BD170010D079 /* index.html */; };
+		6DC1E64C1C97BD170010D079 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1E6461C97BD170010D079 /* js */; };
+		6DC1E64E1C97BD170010D079 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1E6481C97BD170010D079 /* style.css */; };
 		6DC7B9151C91029D0049F108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7B9141C91029D0049F108 /* AppDelegate.swift */; };
 		6DC7B9171C91029D0049F108 /* DisplayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7B9161C91029D0049F108 /* DisplayWebViewController.swift */; };
 		6DC7B91A1C91029D0049F108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7B9181C91029D0049F108 /* Main.storyboard */; };
@@ -20,11 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D6E1FD61C91FF70009A29D8 /* bower_components */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bower_components; sourceTree = "<group>"; };
-		6D6E1FD71C91FF70009A29D8 /* bower.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bower.json; sourceTree = "<group>"; };
-		6D6E1FD81C91FF70009A29D8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		6D6E1FD91C91FF70009A29D8 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
-		6D6E1FDA1C91FF70009A29D8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		6DC1E6431C97BD170010D079 /* bower_components */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bower_components; sourceTree = "<group>"; };
+		6DC1E6441C97BD170010D079 /* bower.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bower.json; sourceTree = "<group>"; };
+		6DC1E6451C97BD170010D079 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		6DC1E6461C97BD170010D079 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		6DC1E6481C97BD170010D079 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		6DC7B9111C91029D0049F108 /* BrightPlan Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrightPlan Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC7B9141C91029D0049F108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC7B9161C91029D0049F108 /* DisplayWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWebViewController.swift; sourceTree = "<group>"; };
@@ -64,11 +64,11 @@
 		6DC7B9131C91029D0049F108 /* BrightPlan Demo App */ = {
 			isa = PBXGroup;
 			children = (
-				6D6E1FD61C91FF70009A29D8 /* bower_components */,
-				6D6E1FD71C91FF70009A29D8 /* bower.json */,
-				6D6E1FD81C91FF70009A29D8 /* index.html */,
-				6D6E1FD91C91FF70009A29D8 /* js */,
-				6D6E1FDA1C91FF70009A29D8 /* style.css */,
+				6DC1E6431C97BD170010D079 /* bower_components */,
+				6DC1E6441C97BD170010D079 /* bower.json */,
+				6DC1E6451C97BD170010D079 /* index.html */,
+				6DC1E6461C97BD170010D079 /* js */,
+				6DC1E6481C97BD170010D079 /* style.css */,
 				6DC7B9141C91029D0049F108 /* AppDelegate.swift */,
 				6DC7B9161C91029D0049F108 /* DisplayWebViewController.swift */,
 				6DC7B9181C91029D0049F108 /* Main.storyboard */,
@@ -138,14 +138,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6E1FDB1C91FF70009A29D8 /* bower_components in Resources */,
-				6D6E1FDF1C91FF70009A29D8 /* style.css in Resources */,
+				6DC1E6491C97BD170010D079 /* bower_components in Resources */,
+				6DC1E64E1C97BD170010D079 /* style.css in Resources */,
 				6DC7B91F1C91029D0049F108 /* LaunchScreen.storyboard in Resources */,
 				6DC7B91C1C91029D0049F108 /* Assets.xcassets in Resources */,
-				6D6E1FDE1C91FF70009A29D8 /* js in Resources */,
-				6D6E1FDD1C91FF70009A29D8 /* index.html in Resources */,
+				6DC1E64C1C97BD170010D079 /* js in Resources */,
+				6DC1E64B1C97BD170010D079 /* index.html in Resources */,
 				6DC7B91A1C91029D0049F108 /* Main.storyboard in Resources */,
-				6D6E1FDC1C91FF70009A29D8 /* bower.json in Resources */,
+				6DC1E64A1C97BD170010D079 /* bower.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,6 +38,7 @@ class DisplayWebViewController: UIViewController, UIWebViewDelegate {
     {
         myActivityIndicator.startAnimating()
     }
+    
     func webViewDidFinishLoad(webView: UIWebView)
     {
         myActivityIndicator.stopAnimating()
